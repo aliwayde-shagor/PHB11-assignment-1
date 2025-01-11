@@ -379,9 +379,10 @@ header{
 }
 .news-letter{
  text-align: center;
+ 
 }
 .newsletter-title{
-    
+    margin-top:80px;
     width: 622px;
     height: 48px;
     font-size: 40px;
@@ -394,29 +395,20 @@ header{
     font-weight: 400;
     line-height: 24px;
     color:rgba(14, 14, 14, 0.7) ;
-    margin-top: 16px;
-}
-.email-box{
-    text-align: center;
+    margin-bottom:16px;
 }
 input[type="email"]{
-   border: none;
+    margin-bottom:24px;
     width: 750px;
     height: 56px;
     border: #fdfdf4;
     padding-left: 25px ;
 }
-.email{
-    margin-top: 24px;
-    width: 600px;
-    height: 55px;
-    background-color: #FFFFFF;
-}
 .subscribe-btn{
+    margin-bottom: 24px;
     font-size: 18px;
     font-weight: 600;
     padding:17px 34px;
-    margin-top: 32px;
     border: none;
     color: #FFFFFF;
     border-radius: 8px;
@@ -428,7 +420,9 @@ input[type="email"]{
     font-size: 16px;
     font-weight: 400;
 }
+/* subscribe newsletter style end */
 
+/* footer part style start */
 .footer-part{
     margin-top: 80px;
     text-align: center;
@@ -437,21 +431,18 @@ input[type="email"]{
     background-color: #fdfdf4;
 }
 .bangladesh{
-    margin-bottom:32px ;
+    padding: 50px;
     font-size: 32px;
     font-weight: bold;
 }
 hr{
-    margin-bottom: 32px;
-    color: rgba(14, 14, 14, 0.9);
-    margin: 0 auto;
+    border: 1px solid solid rgba(14, 14, 14, 0.1);
     width: 1122px;
+    margin: 0 auto;
+    margin-bottom: 32px;
 }
-/* subscribe newsletter style end */
-
-/* footer part style start */
 .footer-part img{
     padding: 10px;
-    margin-top: 32px;
+    margin-bottom:32px;
 }
 /* footer part style end */
