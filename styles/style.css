@@ -5,21 +5,24 @@
     padding: 0;
 }
 
-.font-family{
+body{
     font-family: "Fira Sans", serif;
     width: 1600px;
+    height: 100px;
     margin: 0 auto;
 }
 
 /* style nav bar start */
-nav ul{
+header{
+    width: 1275px;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin: 31px 51px;
+    margin:0 auto;
+    padding: 36px 0px;
+    
 }
-nav li{
-    list-style: none;
+.bd{
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
@@ -44,15 +47,11 @@ nav li{
     height: 560px;
     border-radius: 24px;
     background-color: #C6E4D6;
-    /* padding: 117px; */
-    /* padding:37px 64px ; */
 }
 .banner-child-1{
     width: 622px;
     width: 326px;
-    padding: 117px;
-    /* padding: 100px 80px; */
-    
+    padding: 117px;   
 }
 .banner-description{
     font-size: 24px;
@@ -71,8 +70,6 @@ nav li{
     color:#0E0E0E;
 }
 .explore-btn{
-    /* width: 270px; */
-    /* height: 56px; */
     margin-top: 24px;
     background-color: #006A50;
     border: none;
@@ -91,8 +88,9 @@ nav li{
     
 }
 /* banner style end */
+
+/* recen news style start */
 .future-section{
-    /* display: flex; */
     margin: 0 auto;
     width: 1280px;
     height: 765px;
@@ -114,8 +112,6 @@ nav li{
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
     line-height: 24px;
-    /* background-color: rgba(14, 14, 14, 0.7); */
-    /* opacity: 100%; */
 }
 .card-icon-1{
     width: 410px;
@@ -157,43 +153,53 @@ nav li{
 .card-btn-1{
     color: white;
     border: none;
-   background-color:#5490F5 ;
+    background-color:#5490F5 ;
     border-radius: 8px;
     padding: 11px 20px;
+    margin-top: 32px;
+
 }
 
 .card-btn-2{
     color: white;
     border: none;
-   background-color:#09A15C;
+    background-color:#09A15C;
     border-radius: 8px;
     padding: 11px 20px;
+    margin-top: 32px;
 }
 
 .card-btn-3{
     color: white;
     border: none;
-   background-color:#FFC239;
+    background-color:#FFC239;
     border-radius: 8px;
     padding: 11px 20px;
+    margin-top: 32px;
 }
-/* information box style */
+/* recent news style end */
+
+/* information box style start */
 .information-box{
     padding: 48px 24px ;
     margin-top: 32px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-origin:content-box;
     background-color:rgba(253, 250, 254, 1);
 }
 .chief-description{
+    margin-top: 24px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.8);
 }
 .chief-name{
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 12px;
 }
 .chief-title{
     font-size: 16px;
@@ -205,7 +211,7 @@ margin-top: 12px;
 }
 /* /* information box style end*/ 
 
-/* start recent news */
+/*  recent news style start*/
 .news-section{
     width: 1280px;
     height: 1406px;
@@ -286,26 +292,19 @@ margin-top: 12px;
     border-radius: 24px;
     background-color:rgb(255, 254, 250);
 }
-/* .donates{
-    width: 1240px;
-    height: 464px; */
-    /* background-color: #006A50; */
-    /* margin: 0 auto; */
-/* } */
+/* recent news style end */
 
-/* donate section start */
+/* donate section style start */
 .donate-box{
     margin: 0 auto;
     width: 1240px;
     height: 464px;
    text-align: center;
    margin-top:80px;
-   /* background-color: #006A50; */
 }
 .donate-title{
    font-size: 40px;
    font-weight: bold;
-   /* margin-top: 24px;  */
 }
 .donate-description{
     font-size: 16px;
@@ -327,26 +326,16 @@ margin-top: 12px;
     gap: 24px;
     margin-top: 32px; 
     align-items: center;
-    
-    /* height: 128px; */
-    /* border: 2px solid blueviolet; */
 }
 .child-1{
-   /* width: 240px; */
-   /* height: 128px;  */
    color: rgba(14, 14, 14, 0.8);
    background-color:#fdfdf4;
-   /* margin: 500px; */
-   /* border: 1px solid black; */
-   /* text-align: center;
-   line-height: 100px; */
    padding: 40px 40px;
    border-radius: 16px;
 }
 .child-2{
     color: rgba(14, 14, 14, 0.8);
     background-color: #C6E4D6;
-    /* border: 1px solid rgb(148, 148, 41); */
     padding: 40px 40px;
     border-radius: 16px;
 }
@@ -360,9 +349,10 @@ margin-top: 12px;
     border-radius: 16px;
     padding: 40px 40px;
 }
+
 .child-4{
     color: rgba(14, 14, 14, 0.8);
-    background-color: #fdfdf4;
+    background-color:#fdfdf4;
     border-radius: 16px;
     padding: 40px 40px;
 }
@@ -376,26 +366,27 @@ margin-top: 12px;
     border-radius: 8px;
     background-color: #006A50;
 }
+/* donate section style end */
+
+/* subscribe newsletter style start  */
 .news{
-    
+    margin: 0 auto;
     margin-top: 80px;
-    /* width: 1280px; */
-    height: 395px; */
-   /* text-align: center; */
-   background-color: #C6E4D6;
-   /* margin-bottom: 0; */
+    width: 1280px;
+    height: 395px; 
+    border-radius: 24px;
+    background-color: #C6E4D6;
 }
 .news-letter{
  text-align: center;
-    /* display: flex;
-    flex-direction: column; */
-
 }
 .newsletter-title{
+    
     width: 622px;
     height: 48px;
     font-size: 40px;
     font-weight: bold;
+    padding: 80px 100px;
     margin: 0 auto;
 }
 .newsletter-description{
@@ -407,19 +398,19 @@ margin-top: 12px;
 }
 .email-box{
     text-align: center;
-    /* border: 2px solid black; */
+}
+input[type="email"]{
+   border: none;
+    width: 750px;
+    height: 56px;
+    border: #fdfdf4;
+    padding-left: 25px ;
 }
 .email{
     margin-top: 24px;
     width: 600px;
     height: 55px;
-    border: none;
-    color: rgba(14, 14, 14, 0.3);
     background-color: #FFFFFF;
-    /* width: 750px;
-    height: 56px; */
-    /* border: none; */
-    /* padding: 18px 40px; */
 }
 .subscribe-btn{
     font-size: 18px;
@@ -431,3 +422,36 @@ margin-top: 12px;
     border-radius: 8px;
     background-color: #006A50;
 }
+.we-promise{
+    margin-top: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-part{
+    margin-top: 80px;
+    text-align: center;
+    width: 1600px;
+    height: 226px;
+    background-color: #fdfdf4;
+}
+.bangladesh{
+    margin-bottom:32px ;
+    font-size: 32px;
+    font-weight: bold;
+}
+hr{
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.9);
+    margin: 0 auto;
+    width: 1122px;
+}
+/* subscribe newsletter style end */
+
+/* footer part style start */
+.footer-part img{
+    padding: 10px;
+    margin-top: 32px;
+}
+/* footer part style end */
